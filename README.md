@@ -50,11 +50,11 @@ Things you may want to cover:
 
 |Column|Type|Options|
 |------|----|-------|
-|group_name|text||
+|group_name|string|null: false|
 
 
 ### Association
-- has_many : messages
+- has_many : groups_users,through: :messages
 - has_many : groups_users
 - belongs_to :user
 
