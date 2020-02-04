@@ -40,13 +40,8 @@ Things you may want to cover:
 |------|----|-------|
 |text|text||
 |image|String||
-<<<<<<< HEAD
 |group_id|integer|null: false, foreign_key: true|
 |user_id|integer|null: false, foreign_key: true|
-=======
-|group|references|null: false, foreign_key: true|
-|user|references|null: false, foreign_key: true|
->>>>>>> fc3eec8dc56c193c2ea217ad976d06304d0fc18d
 ### Association
 - belongs_to :user
 - belongs_to :group
