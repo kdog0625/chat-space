@@ -50,17 +50,11 @@ Things you may want to cover:
 
 |Column|Type|Options|
 |------|----|-------|
-|text|text||
-|group_id|integer|null: false, foreign_key: true|
-|user_id|integer|null: false, foreign_key: true|
+|groups_users_id|integer|null: false, foreign_key: true|
+
 
 ### Association
-- has_many :users through: :groups_users
-- belongs_to :user
 - has_many : messages
-
-
-
 
 
 ## groups_usersテーブル
