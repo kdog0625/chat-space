@@ -55,7 +55,7 @@ Things you may want to cover:
 |user_id|integer|null: false, foreign_key: true|
 
 ### Association
-- has_many :users through groups_users
+- has_many :users through: groups_users
 - belongs_to :user
 - has_many : messages
 
