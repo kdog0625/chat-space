@@ -50,11 +50,14 @@ Things you may want to cover:
 
 |Column|Type|Options|
 |------|----|-------|
-|groups_users_id|integer|null: false, foreign_key: true|
+|group_name|text||
 
 
 ### Association
 - has_many : messages
+- has_many : groups_users
+- belongs_to :user
+
 
 
 ## groups_usersテーブル
