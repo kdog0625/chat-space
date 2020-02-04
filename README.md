@@ -54,9 +54,9 @@ Things you may want to cover:
 
 
 ### Association
-- has_many : groups_users,through: :messages
-- has_many : groups_users
-- belongs_to :user
+- has_many :messages
+- has_many :groups_users
+- has_many :users　through: :groups_users
 
 
 
@@ -64,9 +64,8 @@ Things you may want to cover:
 
 |Column|Type|Options|
 |------|----|-------|
-|user_id|integer|null: false, foreign_key: true|
-|group_id|integer|null: false, foreign_key: true|
-
+|group|references|null: false, foreign_key: true|
+|user|references|null: false, foreign_key: true|
 ### Association
 
 - belongs_to :group
