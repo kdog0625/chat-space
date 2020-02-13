@@ -67,19 +67,13 @@
     border-bottom: 1px solid #eeeeee;
     background-color: #ffffff;
     }
-      .message_info_left{
+      &_left{
        padding-top: 35px;
       }  
-        .message_info_left_box{
+        &_box{
         font-size: 20px;
         color: #333333;
         margin-bottom: 15px;
-        }
-          .message_info_left_member{
-          display: flex;
-          font-size: 12px;
-          color: #999999;
-          
         }
             .message_info_left_member{
             display: flex;
