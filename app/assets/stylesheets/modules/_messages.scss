@@ -8,50 +8,50 @@
     width: 300px;
     float: left;
     background-color:#253141;
-  .side_user_name{
-  height: 100px;
-  padding: 0;
-  display: flex;
-  align-items: center;
-    .side-box{
-    height: 20px;
-    width: 260px;
-    color: #ffffff;
-    margin: 0 20px;
+    .side_user_name{
+    height: 100px;
+    padding: 0;
     display: flex;
-  justify-content: space-between;
-  p{
-    font-size: 16px;
-    font-weight: bold;
-  }
-  ul{
-    display: flex;
-  }
-  li{
-    margin-right: 5px;
-  }
-  a{
-    color:#ffffff;
-  }
-  }
-  }
-  }
-  .side_group_list{
+    align-items: center;
+      .side-box{
+      height: 20px;
+      width: 260px;
+      color: #ffffff;
+      margin: 0 20px;
+      display: flex;
+      justify-content: space-between;
+         p{
+          font-size: 16px;
+          font-weight: bold;
+         }
+           ul{
+           display: flex;
+          }
+            li{
+            margin-right: 5px;
+          }
+              a{
+            color:#ffffff;
+           }
+          }
+          }
+        }
+    .side_group_list{
     background-color: #2f3e51;
     height: calc(100vh - 100px);
     padding: 20px;
-    a{
+      a{
       color:#ffffff;
       text-decoration: none;
     }
-    .side_groupout{
+      .side_groupout{
         color: #ffffff;
         margin-bottom: 40px;
-      .side_group_name{
+        .side_group_name{
         padding-bottom: 5px;
         font-size: 15px;
       }
-      .side_group_message{
+        .side_group_message{
         font-size: 11px;
       }
       }
@@ -128,7 +128,7 @@
     padding: 20px 40px;
     background-color: #d2d2d2;
     form{
-    display: flex;
+      display: flex;
       .input_box{
         display: flex;
         width: 100%;
@@ -151,7 +151,7 @@
           }
         }
     }
-    .submit-btn{
+      .submit-btn{
       width: 100px;
       height: 50px;
       padding: 0 30px;
