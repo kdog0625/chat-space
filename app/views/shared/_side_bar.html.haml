@@ -1,20 +1,20 @@
 .chat-side
-  .side_user_name
-    .side-box 
-      %p.side-box__username 
+  .side_box
+    .side_box_user 
+      %p.side_box_user_username 
         masa
-      %ul.side-box-menu
-        %li.side-box-edit-user
+      %ul.side_box_user_menu
+        %li.side_box_edit-user
         = link_to "#" do
           = icon('fas', 'edit')
         %li.side-box-new-group
         = link_to "#" do
           = icon('fas','cog')
-  .side_group_list
+  .side_list
     = link_to "#" do
-      .side_groupout
-        %p.side_group_name
+      .side_list_group
+        %p.side_list_group_name
           techcamp
-        %p.side_group_message
+        %p.side_list_group_mes
           まだメッセージがありません。
       
