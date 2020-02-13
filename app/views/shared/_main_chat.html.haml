@@ -1,0 +1,36 @@
+.chat-main
+  .message_info
+    .message_info_left
+      %h2.message_info_left_box
+        test
+      %ul.message_info_left_member
+        Menber :
+        %li.message_info_left_member
+          masa
+    .message_info_edit
+      = link_to "#" do
+        Edit
+              
+  .main_message
+    .main_mes
+      .main_messa
+        %p.message_info_talk
+          masa
+        %p.message_info_date
+          2019/11/20(Wed) 17:43:01
+      %p.message_text
+        おはよう
+        %p.message_info_talk
+          masa
+        %p.message_info_date
+          2019/11/20(Wed) 17:43:01
+      %p.message_text
+        おはよう
+  .message_form
+    %form.new_message
+      .input_box
+        %input{type:"text",class:"input_box_test",placeholder:"type a message"}
+        %label{class:"input_box_image"}
+          =icon('fas','image')
+          %input{type:"file",class:"input_box_image_file"}
+      %input{type:"submit",class:"submit-btn",value:"Send"}
