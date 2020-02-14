@@ -68,71 +68,71 @@
       background-color: #ffffff;
     }
       .message_info_left{
-        margin-top: 35px;
+        padding-top: 35px;
       }  
         .message_info_left_box{
           font-size: 20px;
           color: #333333;
           margin-bottom: 15px;
         }
-          .message_info_left_member{
-            display: flex;
-            font-size: 12px;
-            color: #999999;
-          }
-      .message_info_edit{
-        height: 40px;
-        line-height: 40px;
-        padding: 0 20px;
-        margin-top: 28px;
-        border: solid 1px #38aef0;
-        position: absolute;
-        right: 40px;          
-        a{
-          text-decoration: none;
-          font-size: 16px;
-          width: 32px;
+        .message_info_left_member{
+          display: flex;
+          font-size: 12px;
+          color: #999999;
         }
+        .message_info_edit{
+         height: 40px;
+         line-height: 40px;
+         padding: 0 20px;
+         margin-top: 28px;
+         border: solid 1px #38aef0;
+         position: absolute;
+         right: 40px;          
+          a{
+           text-decoration: none;
+           font-size: 16px;
+           width: 32px;
+         }
+              }
+    .main_message{
+      background-color: #fafafa;
+      height: calc(100vh - 190px);  
+      padding: 46px 40px;
+      overflow: scroll;
       }
-  .main_message{
-    background-color: #fafafa;
-    height: calc(100vh - 190px);  
-    padding: 46px 40px;
-    overflow: scroll;
-  }
-    .main_mes{
+      .main_mes{
       padding-bottom: 40px;
-    }
-      .main_messa{
+      }
+        .main_messa{
         display: flex;
         margin-bottom: 12px;
-      }
-        .message_info_talk{
+        }
+          .message_info_talk{
           color: #333333;
           font-size: 16px;
           font-weight: bold;
-        }
+          }
           .message_info_date{
             color: #999999;
             font-size: 12px;
             margin-left: 10px;
           }
-             .message_text{
-                color: #434a54;
-                font-size: 14px;
-                margin-bottom: 46px;
+        .message_text{
+          color: #434a54;
+          font-size: 14px;
+          margin-bottom: 46px;
              }
-  .message_form{
-    height: 90px;
-    padding: 20px 40px;
-    background-color: #d2d2d2;
-    form{
-      display: flex;
-      .input_box{
+    .message_form{
+        height: 90px;
+        padding: 20px 40px;
+        background-color: #d2d2d2;
+      form{
         display: flex;
-        width: 100%;
-        position: relative;
-        &_test{
+        .input_box{
+          display: flex;
+          width: 100%;
+          position: relative;
+          &_test{
           height: 50px;
           width: 100%;
           color: #434a54;
@@ -145,11 +145,11 @@
             position: absolute;
             top: 10px;
             right: 10px;
-          &_file{
+            &_file{
             display: none;
+            }
           }
-          }
-      }
+         }
         .submit-btn{
           width: 100px;
           height: 50px;
