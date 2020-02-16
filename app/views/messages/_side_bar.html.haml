@@ -7,15 +7,17 @@
         %li.side-box-new-group
         = link_to new_group_path do
           %i.fa.fa-pencil-square-o.header-items__icons--pen
+          -# = icon('fas', 'cog', class: 'icon')
         %li.side_box_edit-user
         = link_to edit_user_path(current_user.id)  do
           %i.fa.fa-cog.header-items__icons--cog
+          -# = icon('fas', 'edit', class: 'icon')
   .side_list
     - current_user.groups.each do |group|
       .group
-        = link_to "#" do
+        = link_to group_messages_path(group) do
           .side_list_group
             %p.side_list_group_name
               = group.name
             %p.side_list_group_mes
-              新着メッセージ
+              = group.show_last_message

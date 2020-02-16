@@ -71,4 +71,7 @@ group :production do
 end
 gem 'font-awesome-rails'
 gem 'devise'
+gem 'font-awesome-sass'
 gem 'pry-rails'
+gem 'carrierwave'
+gem 'mini_magick'
