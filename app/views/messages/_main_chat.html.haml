@@ -21,6 +21,5 @@
         = f.text_field :content, class: 'input_box_test', placeholder: 'type a message'
         = f.label :image, class: 'input_box_image' do
           = fa_icon 'image', class: 'icon'
-          -# = icon('fas', 'image', class: 'icon')
           = f.file_field :image, class: 'input_box_image_file'
       = f.submit 'Send', class: 'submit-btn'

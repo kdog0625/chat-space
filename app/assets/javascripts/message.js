@@ -42,7 +42,6 @@ $(function(){
     };
   }
   $('#new_message').on('submit', function(e){
-    console.log('hoge');
     e.preventDefault()
     // console.logを用いてイベント発火しているか確認
     var formData = new FormData(this);
@@ -65,5 +64,8 @@ $(function(){
     .fail(function() {
       alert("メッセージ送信に失敗しました");
   })
+  .always(function() {
+    $('.submit-btn').prop('disabled', false); 
+  });
   });
 });
