@@ -79,3 +79,4 @@ gem 'font-awesome-sass'
 gem 'pry-rails'
 gem 'carrierwave'
 gem 'mini_magick'
+gem "nokogiri", ">= 1.10.8"
